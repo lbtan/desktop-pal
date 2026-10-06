@@ -5,9 +5,10 @@
   "windows": ["main"],
   "permissions": [
     "core:default",
+    "core:window:allow-set-position",
+    "core:window:allow-cursor-position",
+    "core:window:allow-show",
+    "core:window:allow-close",
     "opener:default"
-  ],
-  "tauri": {
-    "macOSPrivateApi": true
-  }
+  ]
 }
